@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Test Automation Suite" parallel="methods" >
+
+<test name="Test_sanity_pack">
+
+<classes>
+	<class name="writesampletestcase.GoogleTest">
+			<methods>
+				<include name='googleTitleTest'></include>
+			</methods>
+	</class>
+	<!-- <class name="writesampletestcase.Newtest" />
+<class name="writesampletestcase.TestNgFeatures" /> -->
+</classes>
+
+<!--
+<packages>
+<package name="" />
+</packages>
+-->
+
+
+</test>
+
+</suite>

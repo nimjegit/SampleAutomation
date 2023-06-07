@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [TestNG Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test_sanity_pack(failed)">
+    <classes>
+      <class name="writesampletestcase.GoogleTest">
+        <methods>
+          <include name="googleLogoTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="mailLinkTest"/>
+        </methods>
+      </class> <!-- writesampletestcase.GoogleTest -->
+    </classes>
+  </test> <!-- Test_sanity_pack(failed) -->
+</suite> <!-- Failed suite [TestNG Test Automation Suite] -->
